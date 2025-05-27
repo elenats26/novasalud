@@ -1,0 +1,34 @@
+# === Node.js (backend y frontend) ===
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# === Logs ===
+*.log
+logs/
+*.log.*
+
+# === Builds (si haces builds locales) ===
+dist/
+build/
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
+
+# === React (frontend específico) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+.vscode/
+
+# === Testing ===
+coverage/
